@@ -1,0 +1,37 @@
+body{
+    background-image: url("./images/memphis-colorful.png");
+    font-family: sans-serif;
+}
+.box{
+    width: 200px;
+    padding: 40px;
+    background: #f9d4ce;
+    border-radius: 23px;
+    border: 2px solid #cedde5;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    
+}
+.box input[type="text"],.box input[type="password"]{
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 23px;
+    border: 3px solid #cedde5;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+.box input[type="submit"]{
+    width: auto;
+    background: ;
+    color: black;
+    cursor: pointer;
+    ;
+}
