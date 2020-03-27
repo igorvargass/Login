@@ -1,50 +1,48 @@
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    background: rgb(113,106,255);
-    background: linear-gradient(90deg, rgba(113,106,255,1) 0%, rgba(181,153,183,1) 50%, rgba(250,211,144,1) 100%);
+    background: rgb(113, 106, 255);
+    background: linear-gradient(90deg, rgba(113, 106, 255, 1) 0%, rgba(181, 153, 183, 1) 50%, rgba(250, 211, 144, 1) 100%);
 }
 
-.container form{
+.container form {
     /*centralizando box*/
-    position: absolute ;
-    transform: translate(-50%,-50%);
+    position: absolute;
+    transform: translate(-50%, -50%);
     left: 50%;
     top: 40%;
-
-
     height: 450px;
     margin: 0 auto;
     width: 400px;
     border: 2px solid rgb(47, 53, 66);
     border-radius: 3%;
     padding: 12px;
-    background-color:white;
-
+    background-color: white;
 }
 
-h1{
+h1 {
     margin: 20px;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
     color: rgb(47, 53, 66);
-    
 }
 
-.line{
+.line {
     margin-bottom: 20px;
+    width: 80%;
 }
-.usuario{
+
+.usuario {
     margin-top: 30px;
     text-align: center;
     position: relative;
-
 }
 
-.usuario input[type= "text"],input[type="password"]{
-    width: 50%;
+.usuario input[type="text"], input[type="password"] {
+    border: black 1px solid;
+    width: 80%;
     height: 40px;
     border-radius: 50px;
     outline: none;
@@ -59,47 +57,56 @@ input:focus::-webkit-input-placeholder {
     color: transparent;
 }
 
-.botao input{
-    width: 40%;
+.botao input {
+    width: 80%;
     height: 40px;
     margin: 30px;
-    border-radius:50px;
+    border-radius: 50px;
     cursor: pointer;
     outline: none;
-    background-size: 160px;
+    background-size: 320px;
     background-color: rgb(47, 53, 66);
     color: white;
     font-size: 15px;
+    border: none;
 }
 
-.botao input[type="submit"]:hover{
+.botao input[type="submit"]:hover {
     background-image: linear-gradient(to right, #716aff 0%, #b599b7 51%, #fad390 100%);
 }
 
-.senha{
-    
+.senha {
     margin-top: 30px;
     text-align: center;
     position: relative;
-
 }
 
-.logado{
+.logado {
     text-align: center;
     margin-top: 30px;
     font-size: 14px;
+
 }
 
-a{
+a {
     text-decoration: none;
 }
-.botao{
+
+.botao {
     text-align: center;
-    margin-top: px;
+
 }
 
-.link{
+.link {
     text-align: center;
     margin-top: 5px;
     font-size: 14px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+label {
+    margin-right: 50px;
 }
